@@ -5,7 +5,6 @@ class Solution {
         int original = n;
         int sum = 0;
 
-        // only 3 digits, so at most 3 iterations → O(1)
         while (n > 0) {
             int digit = n % 10;
             sum += digit * digit * digit; // cube directly
@@ -28,3 +27,4 @@ class Solution {
         sc.close();
     }
 }
+
